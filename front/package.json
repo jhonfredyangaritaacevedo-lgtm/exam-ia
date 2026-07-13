@@ -1,0 +1,32 @@
+{
+  "name": "ExamIA-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "wrangler dev .output/server/index.mjs --assets .output/public",
+    "postinstall": "nuxt prepare",
+    "deploy": "npm run build && wrangler deploy .output/server/index.mjs --assets .output/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@iconify/json": "^2.2.454",
+    "@iconify/tailwind4": "^1.2.3",
+    "@pinia/nuxt": "^0.11.3",
+    "@primeuix/themes": "^1.2.5",
+    "@primevue/nuxt-module": "^4.5.4",
+    "@tailwindcss/vite": "^4.2.2",
+    "@vite-pwa/nuxt": "^1.1.1",
+    "nuxt": "4.4.2",
+    "pinia": "^3.0.4",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.5.4",
+    "tailwindcss": "^4.2.2",
+    "tailwindcss-primeui": "^0.6.1"
+  }
+}

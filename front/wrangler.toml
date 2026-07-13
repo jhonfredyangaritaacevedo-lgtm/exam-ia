@@ -1,0 +1,6 @@
+compatibility_date = "2025-07-15"
+name = "exam-ia"
+main = ".output/server/index.mjs"
+
+[vars]
+NUXT_PUBLIC_API_BASE = "https://atv01m28qk.execute-api.us-west-2.amazonaws.com"

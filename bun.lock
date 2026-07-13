@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import 'primeicons/primeicons.css';
+
+
+@plugin "@iconify/tailwind4";
+
+
+
+/* Prevent dark mode */
+.dark, [data-theme="dark"], html.dark, body.dark {
+    color-scheme: light !important;
+}
+
+.p-inputtext {
+    width: 100%;
+}
